@@ -2,6 +2,11 @@
 
 This project is a fork of an open-source Java-based chess game that I contributed to in Fall 2023 as part of my coursework. My primary goals were to improve the user experience and practice writing testable, maintainable code in a larger open-source codebase.
 
+My contributions can be found in the following files:
+Under src/main/java/com.chess/ui:
+VisualPanel, MenuCompontent, and ChessBoardUI 
+(warning, ChessBoardUI is large, my code can be found by searching for //Scott - BEGIN and //Scott - END)
+
 ## My Contributions
 - Developed a **move visualization feature** to enhance interactivity.
 - Implemented **unit tests** using **JUnit 4** for not only my code, but for existing code (as no tests existed in the original repository), with our group's total test coverage reaching 80%
