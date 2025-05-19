@@ -10,6 +10,7 @@ import javax.swing.JFrame;
 import javax.swing.JPanel;
 import javax.swing.SwingUtilities;
 
+// Scott - BEGIN ----------------------------------------------------------------------
 public class VisualPanel extends JPanel {
 
     private ArrayList<String> squareIDList;
@@ -39,5 +40,7 @@ public class VisualPanel extends JPanel {
         coordinates[1] = 10 + (ySquares * 97);
         return coordinates;
     }
+
+    // Scott - END ----------------------------------------------------------------------
 
 }

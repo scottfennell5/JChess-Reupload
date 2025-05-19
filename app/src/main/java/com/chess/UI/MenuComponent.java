@@ -99,12 +99,14 @@ public class MenuComponent extends JLayeredPane implements ActionListener {
         togglePlayerOneTeamText.setForeground(new Color(0, 230, 0));
         togglePlayerOneTeam.setOpaque(false);
 
+        // Scott - BEGIN ----------------------------------------------------------------------
         toggleVisualizedMovesText.setText("Visualize Moves");
         toggleVisualizedMovesText.setFont(new Font("Sans-serif", Font.PLAIN, 18));
         toggleVisualizedMovesText.setEditable(false);
         toggleVisualizedMovesText.setOpaque(false);
         toggleVisualizedMovesText.setForeground(new Color(0, 230, 0));
         toggleVisualizedMoves.setOpaque(false);
+        // Scott - END ----------------------------------------------------------------------
 
         subMenuSettingsPanel.setLayout(new GridBagLayout());
         subMenuSettingsPanel.setBorder(menuSettingsBorder);

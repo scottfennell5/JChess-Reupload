@@ -245,6 +245,7 @@ public class ChessBoardUI extends JLayeredPane {
             draggedEventInteration = 0;
             name = ((PieceUI) evt.getSource()).getName();
 
+            // Scott - BEGIN ----------------------------------------------------------------------
             //move visualization code
             if(visualizeMoves){
                 clearVisualMoves();
@@ -252,7 +253,7 @@ public class ChessBoardUI extends JLayeredPane {
                 System.out.println("SquareID: "+squareID);
                 alreadyCalled = false;
             }
-            //
+            // Scott - END ----------------------------------------------------------------------
 
             if (boardFoundation.getComponentAt(x + 24, y + 27) != null && boardFoundation.getComponentAt(x + 24, y + 27) != startingSquare && errorCode != -1) {
                 squareID = ((BoardSquareUI) boardFoundation.getComponentAt(x + 24, y + 27)).getID();
@@ -334,6 +335,7 @@ public class ChessBoardUI extends JLayeredPane {
         updateGraphicalBoard(this);
     }
 
+    // Scott - BEGIN ----------------------------------------------------------------------
     //places temporary ValidMove pieces to represent all legal moves of the currently held piece
     public void visualizeMoves(JPanel currentPiece, String currentLocationID){
         System.out.println("---------------------------------");
@@ -436,6 +438,7 @@ public class ChessBoardUI extends JLayeredPane {
         remove(visualMoveLayer);
 
     }
+    // Scott - END ----------------------------------------------------------------------
 
     public void afterTurn() { //This is called after a released event has resulted in a piece being moved to new location and thus a turn has been taken
         //Update both graphical instances
