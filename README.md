@@ -4,7 +4,7 @@ This project is a fork of an open-source Java-based chess game that I contribute
 
 ## My Contributions
 - Developed a **move visualization feature** to enhance interactivity.
-- Implemented **unit tests** using **JUnit 4** for not only my code, but for existing code (as no tests existed in the original repository), with our total test coverage reaching 80%
+- Implemented **unit tests** using **JUnit 4** for not only my code, but for existing code (as no tests existed in the original repository), with our group's total test coverage reaching 80%
 - Gained experience navigating and understanding existing code, debugging, and extending functionality in Java.
 
 ## What I Learned
