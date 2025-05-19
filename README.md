@@ -7,6 +7,8 @@ Under src/main/java/com.chess/ui:
 VisualPanel, MenuCompontent, and ChessBoardUI 
 (warning, ChessBoardUI is large, my code can be found by searching for //Scott - BEGIN and //Scott - END)
 
+Additionally, my test files can be found in test/java/com.chess/UI
+
 ## My Contributions
 - Developed a **move visualization feature** to enhance interactivity.
 - Implemented **unit tests** using **JUnit 4** for not only my code, but for existing code (as no tests existed in the original repository), with our group's total test coverage reaching 80%
